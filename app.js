@@ -101,13 +101,10 @@ class ProductoController {
 
     loadProducts() {
         this.add(new Product(1, "Black Swimsuit 'Bae Watch'", 25, "S'Bae Watch' Letter at the front", "https://images.unsplash.com/photo-1521920810064-3ba9506540fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=780&q=80", "Swimsuit"))
-        this.add(new Product(2, "Short Sleeve 'Attitude'", 27, "Attitude Shirt with Short Sleeve", "https://static.bershka.net/4/photos2/2023/I/0/2/p/8003/696/707/9a0f744b4720fca5931e29c3f5111e48-8003696707_1_1_0.jpg?imwidth=1920&impolicy=bershka-itxmedium&imformat=chrome", "Attitude Shirt"))
-        this.add(new Product(3, "Short Sleeve ", 25, "Un microprocesador de gama alta", "https://m.media-amazon.com/images/I/51D3DrDmwkL.__AC_SX300_SY300_QL70_ML2_.jpg", "un microprocesador amd"))
-        this.add(new Product(4, "Pants", 30, "Un microprocesador de gama alta", "https://m.media-amazon.com/images/I/616VM20+AzL._AC_SX300_SY300_.jpg", "un microprocesador amd"))
-        this.add(new Product(5, "Pants", 25, "Un microprocesador de gama baja", "https://m.media-amazon.com/images/I/51C8njBn7mL.__AC_SX300_SY300_QL70_ML2_.jpg", "un microprocesador intel"))
-        this.add(new Product(6, "Jeans", 15, "Un microprocesador de gama media", "https://m.media-amazon.com/images/I/51QJsh7HAhL.__AC_SX300_SY300_QL70_ML2_.jpg", "un microprocesador intel"))
-        this.add(new Product(7, "Hoodie", 25, "Un microprocesador de gama alta", "https://m.media-amazon.com/images/I/51GYVerUgML.__AC_SX300_SY300_QL70_ML2_.jpg", "un microprocesador intel"))
-        this.add(new Product(8, "Hoodie", 30, "Un microprocesador de gama alta", "https://m.media-amazon.com/images/I/71diouNMRHL.__AC_SX300_SY300_QL70_ML2_.jpg", "un microprocesador intel"))
+        this.add(new Product(2, "Black Hoodie", 27, "Black Hoodie back letters", "https://images.unsplash.com/photo-1633292503304-db2544550af0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80", "Hoodie"))
+        this.add(new Product(3, "Black and White Tennis", 25, "Formal Shoes", "https://images.unsplash.com/photo-1563183222-ff776d1076e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80", "Shoes"))
+        this.add(new Product(4, "Yellow Swimsuit", 30, "Yellow", "https://images.unsplash.com/photo-1592816348552-0f10135a5458?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80", "Swimsuit"))
+        this.add(new Product(5, "White Coat", 25, "White Long Sleeve", "https://images.unsplash.com/photo-1607400444237-d733f38221a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80", "Coat"))
     }
 
     showDOM() {
